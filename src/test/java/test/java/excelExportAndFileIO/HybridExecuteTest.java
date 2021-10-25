@@ -69,7 +69,7 @@ public class HybridExecuteTest {
     	System.out.println("Before Test Ends");
 	}
 	
-    @Test(dataProvider="hybridData", invocationCount = 1, testName = "SEO and Functional Test" )
+    @Test(dataProvider="hybridData", invocationCount = 2, testName = "SEO and Functional Test" )
 	public void testBegins(String testcaseName,String keyword,String action,String locator,
 			String expression, String attribute, String value, String driverDelay, String expectedText, 
 			String actualText, String status, String trackRow) throws Exception {
